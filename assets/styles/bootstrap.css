@@ -406,6 +406,10 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
+.img-overlay {
+  
+  
+}
 
 img,
 svg {
@@ -743,11 +747,17 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  width: 100%;
+  width: 90%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+}
+.container-overlay {
+  width: 100%;
+  height: 420px;
+  background: url(../images/Highlight-Copilot-Native-App_VP2-859x540.avif) no-repeat;
+  background-position: right;
 }
 
 @media (min-width: 576px) {
