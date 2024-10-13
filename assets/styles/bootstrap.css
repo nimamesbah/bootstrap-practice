@@ -759,6 +759,10 @@ progress {
   background: url(../images/Highlight-Copilot-Native-App_VP2-859x540.avif) no-repeat;
   background-position: right;
 }
+.background-overlay {
+  background: no-repeat url(../images/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP4-1260x600.avif);
+  background-position: bottom;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -4448,7 +4452,7 @@ textarea.form-control-lg {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  flex: 1 1 auto;
+  
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
@@ -7485,6 +7489,16 @@ textarea.form-control-lg {
   left: 0 !important;
 }
 
+.start-9 {
+  left: 9% !important;
+}
+.start-15 {
+  left: 15%;
+}
+.start-25 {
+  left: 25% !important; 
+}
+
 .start-50 {
   left: 50% !important;
 }
@@ -7717,6 +7731,9 @@ textarea.form-control-lg {
 
 .h-50 {
   height: 50% !important;
+}
+.h-425px {
+  height: 425px;
 }
 
 .h-75 {
